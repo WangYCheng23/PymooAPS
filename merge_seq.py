@@ -4,7 +4,6 @@ import sys
 import pandas as pd
 import numpy as np
 from datetime import datetime
-from utils import output_csv
 
     
 def Merge(abs_path, steps):    
@@ -30,6 +29,5 @@ def Merge(abs_path, steps):
         
     res_df = pd.concat(res, axis=0)
     res_df.to_csv(os.path.join(DATA_PATH,f'output/{steps}/result.csv'), index=False)    
-    output_csv(steps,abs_path, paths)
     print("finished merge!")
  
