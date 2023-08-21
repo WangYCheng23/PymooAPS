@@ -19,7 +19,7 @@ pip install -r requirements.txt
 # Usage
 
 ```
-cd 工厂智能排产算法赛题-第3名-不得命咯
+cd PymooAPS
 
 # 配置pymoo_main.py 第38-41行 参数
 # 根据硬件配置调整 BATCH 和 N_PROCESS  
